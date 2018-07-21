@@ -1,0 +1,64 @@
+*{
+	font-family: 'Arial', sans-serif;
+}
+body{
+	overflow-x: hidden;
+}
+.container{
+	margin:10px;
+	min-width:97%;
+}
+
+.search-bar{
+	margin:20px 0px 20px 0px;
+}
+.logo{
+	font-size: 1.5em;
+	color:red;	
+	margin: 0px 35px;
+	padding: 0px;
+	transform: scale(2.5);
+}
+.search-bar-input{
+	margin:0px;
+}
+.search-bar-btn{
+	border-radius: 0px 20px 20px 0px;
+	background-color: red;
+	display: inline-block;
+}
+.video-title{
+	letter-spacing: 0px;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 20px;
+}
+.video-channel{
+	font-style: italic;
+	font-size: 0.7em;
+	color:#666;
+}
+.video-description{
+	padding: 20px;
+}
+.list-group-item{
+	border:none;
+	padding: 5px 20px;
+	cursor: pointer;
+}
+.video-list-item-image{
+	float:left;
+	margin-right: 5px;
+	height: 20vh;
+}
+.video-list-item-title{
+	font-size: 0.9em;
+	margin-top: 10px;
+	font-weight: bold;
+	letter-spacing: 0px;
+}
+.video-list-item-channel{
+	color:gray;
+	padding-top: 0.5em;
+}
+
