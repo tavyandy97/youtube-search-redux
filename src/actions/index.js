@@ -1,6 +1,6 @@
 import { YouTube, SearchRequest } from 'youtube-search-google-api';
 const youtube = new YouTube()
-const API_KEY = '';
+const API_KEY = `YOUR_API_KEY`;
 
 export const GET_VIDEO_LIST = 'GET_VIDEO_LIST';
 export const CHANGE_SELECTED_VIDEO = 'CHANGE_SELECTED_VIDEO';

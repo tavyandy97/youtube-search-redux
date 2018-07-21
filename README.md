@@ -1,25 +1,25 @@
-# ReduxSimpleStarter
+# Youtube Search API with Redux
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
-
-### Getting Started
-
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+#### Setup
 
 ```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
+ git clone https://github.com/tavyandy97/youtube-search-redux.git
+ cd youtube-search-redux
+```
+After cloning the repository to your local system, follow the 2 following steps:
+
+1. In the file ./src/actions/index.js , please enter your Youtube Data v3 API key.
+```
+const API_KEY = `YOUR_API_KEY_COMES_HERE`;
+```
+2. The default local port running is 8080. If you want to change it, goto ./node_modules/webpack-dev-server/bin/webpack-dev-server.js , on line 58 and 92.
+
+
+After you've completed the above steps, execute the following commands to start the server.
+
+```
+ npm install
+ npm start
 ```
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+After this the application shall be successfully hosted. 
